@@ -8,13 +8,15 @@ import {NavComponent} from './nav/nav.component';
 import {HomeComponent} from './home/home.component';
 import {HttpService} from '../http.service';
 import { UserComponent } from './user/user.component';
+import { AboutComponent } from './about/about.component';
 
 let routes = [
   {
     path: '',
     component: PublicComponent,
     children: [
-      {path: '', component: HomeComponent}
+      {path: '', component: HomeComponent},
+      {path: 'about', component: AboutComponent}
     ]
   }
 ];
@@ -24,7 +26,8 @@ let routes = [
     DrugComponent,
     NavComponent,
     HomeComponent,
-    UserComponent],
+    UserComponent,
+    AboutComponent],
   imports: [
     CommonModule,
     BrowserModule,

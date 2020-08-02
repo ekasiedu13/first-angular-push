@@ -10,17 +10,17 @@ export class HomeComponent implements OnInit {
 
   drugs = [
     {
-      img: '/images/drugs1.jpeg',
+      img: '/assets/images/drug1.jpg',
       des: 'Some powerful drugs',
       price: 'GHc 20.00',
       id: 1
     }, {
-      img: '/images/drugs2.jpeg',
+      img: '/assets/images/drug1.jpg',
       des: 'Dragon Drugs',
       price: 'GHc 10.00',
       id: 2
     }, {
-      img: '/images/drugs3.jpeg',
+      img: '/assets/images/drug3.jpg',
       des: 'Para',
       price: 'GHc 1.00',
       id: 3

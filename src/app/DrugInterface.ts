@@ -1,4 +1,4 @@
-interface DrugInterface {
+export interface DrugInterface {
   img: string,
   des: string,
   price: string,
