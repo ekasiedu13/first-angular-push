@@ -30,6 +30,9 @@ let routes = [
     BrowserModule,
     RouterModule.forChild(routes),
   ],
+  exports: [
+    NavComponent
+  ],
   providers: [
     HttpService
   ]
